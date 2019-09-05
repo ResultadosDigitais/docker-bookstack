@@ -5,7 +5,7 @@ metadata:
     project: bookstack
     role: app
   name: bookstack
-  namespace: plg
+  namespace: pope
 spec:
   ports:
     - name: http
@@ -25,7 +25,7 @@ metadata:
     role: app
     version: staging
   name: bookstack
-  namespace: plg
+  namespace: pope
 spec:
   replicas: 3
   selector:
